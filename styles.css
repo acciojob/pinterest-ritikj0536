@@ -22,12 +22,12 @@ body {
 }
 
 
-.hero img {
+.img {
   width: 100%; 
   height: auto;
   max-width: 700px;
   border-radius: 10px;
-  object-fit: cover important!;
+  object-fit: cover;
 }
 
 }
