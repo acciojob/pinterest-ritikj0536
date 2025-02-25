@@ -12,19 +12,24 @@ body {
 .hero {
   display: flex;
   align-items: center;
-  max-width: 900px;
+  justify-content: center;
+  width: 100%;   /* Ensure container takes up full width */
+  height: 400px; /* Or any height you desire */
   background: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Fixed extra space in box-shadow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.img {
-  width: 100%; /* Allow the image to take full width of its parent container */
+
+.hero img {
+  width: 100%; 
   height: auto;
-  max-width: 700px; /* You can control the image size here */
+  max-width: 700px;
   border-radius: 10px;
-  object-fit: cover;
+  object-fit: cover important!;
+}
+
 }
 
 .text {
