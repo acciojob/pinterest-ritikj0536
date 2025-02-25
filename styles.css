@@ -1,53 +1,57 @@
-body{
-	font-family:arial, sans-serif;
-	margin:0;
-	padding:0;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	height:100vh;
-	background-color:#f5f5f5;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
 }
 
-.hero{
-	display:flex;
-	flex-direction:row;
-	align-items:center;
-	background:white;
-	padding:20px;
-	border-radius:10px;
-	box-shadow:0 4px 10 px rgba(0,0,0,0.1);
+.hero {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Fixed extra space in box-shadow */
 }
 
-.img{
-	width:700px;
-	height:auto;
-	border-radius:10px;
-	object-fit:cover;
+.img {
+  width: 100%; /* Allow the image to take full width of its parent container */
+  height: auto;
+  max-width: 700px; /* You can control the image size here */
+  border-radius: 10px;
+  object-fit: cover;
 }
 
-.text{
-	padding:20px;
+.text {
+  padding: 20px;
 }
 
-.text h1{
-	font-size:28px;
-	font-weight:bold;
+.text h1 {
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.text p{
-	font-size:16px;
-	color:#666;
-	margin-bottom:20px;
+.text p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
 }
 
-button{
-	background-color:red;
-	color:white;
-	padding:10px 20px;
-	font-size:16px;
-	border:none;
-	border-radius:5px;
+button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-	
-	
+
+button:hover {
+  background-color: darkred;
+}
