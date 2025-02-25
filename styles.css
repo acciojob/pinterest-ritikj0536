@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+.hero{
+	display:flex;
+	justify-content:space-around;
+}
+
+.img{
+	width:500px;
+	height:300px;
+	
+}
