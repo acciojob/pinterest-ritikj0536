@@ -4,19 +4,62 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		.hero{
+			display:flex;
+			align-items:center;
+			justify-content:center;
+		}
+		img{
+			width:500px;
+			height:250px;
+			object-fit:cover;
+		}
+		.leftsection{
+			display:flex;
+			flex-direction:column;
+			margin:auto;	
+			margin-left:17px;
+		}
+		h1{
+			font-size:20px;
+			text-align:center;
+		}
+		p{
+			font-size:10px;
+			text-align:center;
+margin-top:2px;
+		}
+		.btn{
+			background-color:red;
+			border:none;
+			border-radius:5px;
+			color:white;
+			padding:5px;
+			width:80px;
+			font-size:8px;
+			margin:auto;
+			margin-top:2px;
+		}
+		a{
+			text-align:center;
+		}
+		
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div class="hero">
-		<div class="img">
+	<div id="hero" class="hero">
 		<img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-		</div>
-		<div class="text">
+		<div class="leftsection">
 		<h1>Welcome to my Pinterest clone</h1>
 		<p>Discover new inspiration and save your favourite ideas</p>
-		<button>Explore now</button>
-		</div>
+			<a href="#hero">
+				<button class="btn">Explore now</button>
+			</a>
+</div>
+		
 	</div>
     <script type="text/javascript" src="./script.js">
 </script>
